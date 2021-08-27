@@ -1,0 +1,40 @@
+GET http://localhost:8080/ HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3300/og HTTP/1.1
+Content-Type: application/json
+
+{
+     "web_url":"https://alpha.findcenter.com/topics/Meditation"
+    //"web_url":"http://demoblinkinteract.com/findcenter-dev-new/teachers/Aama-Bombo"
+}
+
+###
+
+POST http://localhost:3300/og-meta HTTP/1.1
+Content-Type: application/json
+
+{
+    // "web_url":"https://alpha.findcenter.com/topics/Meditation"
+    // "web_url":"http://demoblinkinteract.com/findcenter-dev-new/teachers/Aama-Bombo"
+    // "web_url":"http://ww16.balckboard.com/?sub1=20210827-2210-409f-9a67-8cb7c4fe36f5"
+     "web_url":"https://www.google.com/search?q=token+based+websites&rlz=1C1SQJL_enIN944IN944&oq=token+based+websites&aqs=chrome..69i57.2706j0j7&sourceid=chrome&ie=UTF-8"
+}
+
+###
+GET http://localhost:4916/ HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://fcapidev.test-v2solutions.com:4300/og HTTP/1.1
+Content-Type: application/json
+
+{
+    // "web_url":"http://demoblinkinteract.com/findcenter-dev-new/teachers/Aama-Bombo"
+"web_url":"https://alpha.findcenter.com/topics/Meditation"
+}
+
+###
